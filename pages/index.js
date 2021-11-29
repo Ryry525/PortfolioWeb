@@ -5,13 +5,19 @@ import {
   Image, 
   useColorModeValue
  } from '@chakra-ui/react'
- import Section from '../components/section'
- import Paragraph from '../components/paragraph'
-
+import Section from '../components/section'
+import Paragraph from '../components/paragraph'
+import { BioSection, BioYear } from '../components/bio'
 const Page = () => {
   return (
     <Container>
-      <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
+      <Box 
+      borderRadius="lg"  
+      mb={6} 
+      p={3}
+      align="center"
+      bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} 
+      >
         Hello, I&apos;m a high school student from NYC!
       </Box>
 
@@ -20,13 +26,17 @@ const Page = () => {
           <Heading as="h2" variant="page-title">
             Ryan Lin
           </Heading>
-          <p>Senior year of highschool, attending{' '}<b>MidWood High school at Brooklyn College</b></p>
+          <Section delay={0.1}>
+          <p>
+            Senior year of highschool, attending{' '}<b>Midwood High School at Brooklyn College</b> {' '} (2019-2022)
+          </p>
+          </Section>
         </Box>
         <Box 
         flexShrink={0} 
         mt={{base:4, md: 0}} 
         ml={{md :6}} 
-        align="center"
+        textAlign="center"
         >
             <Image 
             borderColors="whiteAlpha.800"
@@ -41,11 +51,33 @@ const Page = () => {
         </Box>
       </Box>
 
-      <Section delay={0.1}>
+      <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
-        <Paragraph>Paragraph
+        <BioSection>
+          <BioYear>2004</BioYear>Born in NYC, USA. 
+        </BioSection>
+        <BioSection>
+          <BioYear>2005-2010</BioYear>Lived in FuZhou, China.
+        </BioSection>
+        <BioSection>
+          <BioYear>2018</BioYear>Accepted into James Madison High School. 
+        </BioSection>
+        <BioSection>
+          <BioYear>2019</BioYear>Transferred into Midwood High School. 
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>TBD.
+        </BioSection>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          I ♥️
+        </Heading>
+        <Paragraph>
+        Videogames, Food, Music, Crypto Currency, Cars
         </Paragraph>
       </Section>
     </Container>
