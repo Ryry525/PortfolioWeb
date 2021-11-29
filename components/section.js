@@ -19,3 +19,5 @@ const Section = ({ children, delay = 0 }) => (
 );
 
 export default Section;
+
+export default Section
