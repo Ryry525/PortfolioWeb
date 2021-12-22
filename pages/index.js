@@ -78,7 +78,7 @@ const Page = () => {
           I ♥️
         </Heading>
         <Paragraph>
-        Videogames, Food, Music, Crypto Currency, Cars
+        Videogames, Food, Cars
         </Paragraph>
       </Section>
     </Container>
