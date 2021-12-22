@@ -8,6 +8,7 @@ import {
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
+import Age from '../components/age'
 const Page = () => {
   return (
     <Container>
@@ -18,7 +19,7 @@ const Page = () => {
       align="center"
       bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} 
       >
-        Hello, I&apos;m a high school student from NYC!
+        Hello, I&apos;m a <Age/> years old high school student from NYC!
       </Box>
 
       <Box display={{ md: 'flex' }}>
