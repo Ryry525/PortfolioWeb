@@ -100,7 +100,7 @@ const Navbar = props => {
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href="/school" passHref>
+                <NextLink href="/schoolWork" passHref>
                   <MenuItem as={Link}>School work</MenuItem>
                 </NextLink>
                 <NextLink href="/personal" passHref>
@@ -108,11 +108,11 @@ const Navbar = props => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/Ryry525"
+                  href="https://github.com/Ryry525/PortfolioWeb"
                   target="_blank"
                   rel="nonreferrer noopener"
                 >
-                  My Github
+                  Source code
                 </MenuItem>
               </MenuList>
             </Menu>
