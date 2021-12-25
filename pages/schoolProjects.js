@@ -4,7 +4,7 @@ import { SchoolWorkGridItem } from '../components/grid-item'
 
 import thumbAdventuregame from '../public/images/work/thumbAdventuregame.png'
 
-const schoolWork = () => {
+const schoolProjects = () => {
     return (
     <Container>
         <Heading as="h3" fontSize={20} mb={4}>
@@ -22,4 +22,4 @@ const schoolWork = () => {
     )
 }
 
-export default schoolWork
+export default schoolProjects
