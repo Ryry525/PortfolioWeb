@@ -15,7 +15,7 @@ import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import { BioSection, BioYear } from '../components/bio'
 import Age from '../components/age'
-import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 const Page = () => {
   return (
@@ -118,6 +118,22 @@ const Page = () => {
                   leftIcon={<Icon as={IoLogoInstagram} />}
                 >
                   @ryry_0525_
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
+          <List>
+            <ListItem>
+              <Link
+                href="https://www.linkedin.com/in/ryan-lin-645367202/"
+                target="_blank"
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="red"
+                  leftIcon={<Icon as={IoLogoLinkedin} />}
+                >
+                  @Ryan Lin
                 </Button>
               </Link>
             </ListItem>
