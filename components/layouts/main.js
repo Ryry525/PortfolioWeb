@@ -15,12 +15,12 @@ const Main = ({ children, router }) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Ryan Shilling" />
-        <meta name="author" content="Ryan Lin Lin" />
+        <meta name="author" content="Ryan Lin" />
         <meta property="og:site_name" content="Homepage" />
         <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image"/>
         <meta property="og:image" content="/pfp.jpg" />
-
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <title>WIP: Ryan Lin</title>
       </Head>
 

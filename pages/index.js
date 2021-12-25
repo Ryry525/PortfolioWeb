@@ -50,7 +50,7 @@ const Page = () => {
             textAlign="center"
           >
             <Image
-              borderColors="whiteAlpha.800"
+              borderColor="whiteAlpha.800"
               borderWidth={2}
               borderStyle="solid"
               maxWidth="100px"
