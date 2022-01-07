@@ -69,15 +69,12 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/schoolProjects" path={path}>
-            School Projects
-          </LinkItem>
-          <LinkItem href="/personal" path={path}>
-            Personal Projects
+          <LinkItem href="/works" path={path}>
+            Works
           </LinkItem>
           <LinkItem
             _target="_blank"
-            href="https://github.com/Ryry525/PortfolioWebsite"
+            href="https://github.com/Ryry525/PortfolioWeb"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -102,11 +99,8 @@ const Navbar = props => {
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href="/schoolProjects" passHref>
-                  <MenuItem as={Link}>School Projects</MenuItem>
-                </NextLink>
-                <NextLink href="/personal" passHref>
-                  <MenuItem as={Link}>Personal work</MenuItem>
+                <NextLink href="/works" passHref>
+                  <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
