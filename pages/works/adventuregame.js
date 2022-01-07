@@ -1,6 +1,12 @@
-import { Container, Badge, Link, List, Listitem } from '@chakra-ui/react'
+import { 
+  Container, 
+  Badge, 
+  Link, 
+  List, 
+  ListItem 
+} from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -8,22 +14,25 @@ const Work = () => (
   <Layout title="Adventure Game">
     <Container>
       <Title>
-        Javascript Adventure Game <Badge>2021-</Badge>
+        Adventuregame <Badge>2021-</Badge>
       </Title>
       <P>
-        A web game created using Javascript. Part of the code:javascript
-        development program.
+        A webgame created using JS, HTML, and CSS. Part of: TheCode: Javescript
+        devleopment program
       </P>
       <List ml={4} my={4}>
-        <Listitem>
+        <ListItem>
           <Meta>Website</Meta>
           <Link href="https://ryry525.github.io/javascript-adventure-game/">
-            <ExternalLinkIcon px={2} />
+            https://ryry525.github.io/javascript-adventure-game/{' '}
+            <ExternalLinkIcon mx="2px" />
           </Link>
-        </Listitem>
+        </ListItem>
+        <ListItem>
+          <Meta>Platform</Meta>
+          <span>Windows/macOS/Linux/iOS/Android</span>
+        </ListItem>
       </List>
-
-      <WorkImage src="/images/work/Adventuregame.png" alt="Adventuregame" />
     </Container>
   </Layout>
 )
