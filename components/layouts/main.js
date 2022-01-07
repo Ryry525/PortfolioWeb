@@ -19,8 +19,10 @@ const Main = ({ children, router }) => {
         <meta property="og:site_name" content="Homepage" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/pfp.jpg" />
+        <meta name="twitter:card" content="summary_large_image"/>
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />\
+        
         <title>WIP: Ryan Lin</title>
       </Head>
 
