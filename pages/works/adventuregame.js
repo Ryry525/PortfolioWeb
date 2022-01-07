@@ -1,11 +1,11 @@
 import { Container, Badge, Link, List, Listitem } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/project'
+import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Adventuregame">
+  <Layout title="Adventure Game">
     <Container>
       <Title>
         Javascript Adventure Game <Badge>2021-</Badge>

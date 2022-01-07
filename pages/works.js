@@ -1,12 +1,12 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
-import { SchoolWorkGridItem } from '../components/grid-item'
+import { WorkGridItem } from '../components/grid-item'
 
 import thumbAdventuregame from '../public/images/work/Adventuregame.png'
 
-const schoolProjects = () => (
-  <Layout title="schoolProjects">
+const Works = () => (
+  <Layout title="Works">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
         School Projects
@@ -14,18 +14,18 @@ const schoolProjects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <SchoolWorkGridItem
+          <WorkGridItem
             id="adventuregame"
-            title="Adventuregame"
+            title="Adventure Game"
             thumbnail={thumbAdventuregame}
           >
             A simple web game made from JS; Part of THECODE: Javascript
             development program
-          </SchoolWorkGridItem>
+          </WorkGridItem>
         </Section>
       </SimpleGrid>
     </Container>
   </Layout>
 )
 
-export default schoolProjects
+export default Works
