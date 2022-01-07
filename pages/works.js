@@ -3,7 +3,7 @@ import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbAdventuregame from '../public/images/work/Adventuregame.png'
+import thumbAdventuregame from '../public/images/works/Adventuregame.png'
 
 const Works = () => (
   <Layout title="Works">
