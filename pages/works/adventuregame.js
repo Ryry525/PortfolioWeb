@@ -6,7 +6,7 @@ import {
   ListItem 
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, Meta } from '../../components/work'
+import { Title, Meta, WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -33,6 +33,7 @@ const Work = () => (
           <span>Windows/macOS/Linux/iOS/Android</span>
         </ListItem>
       </List>
+      <WorkImage src="/images/works/Adventuregame.png" alt="Adventuregame" />
     </Container>
   </Layout>
 )
