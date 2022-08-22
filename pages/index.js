@@ -28,7 +28,7 @@ const Page = () => {
           align="center"
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         >
-          Hello, I&apos;m a <Age /> years old high school student from NYC!
+          Hello, I&apos;m a <Age /> years old student from NYC!
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -38,8 +38,8 @@ const Page = () => {
             </Heading>
             <Section delay={0.1}>
               <p>
-                Senior year of highschool, attending{' '}
-                <b>Midwood High School at Brooklyn College</b> (2019-2022)
+                Freshman year of college, attending{' '}
+                <b>SUNY Stony Brook University</b> (2022-2026)
               </p>
             </Section>
           </Box>
@@ -70,7 +70,10 @@ const Page = () => {
             <BioYear>2004</BioYear>Born in NYC, USA.
           </BioSection>
           <BioSection>
-            <BioYear>2005-2010</BioYear>Lived in FuZhou, China.
+            <BioYear>2005</BioYear>Lived in FuZhou, China.
+          </BioSection>
+          <BioSection>
+            <BioYear>2010</BioYear>Moved back to NYC.
           </BioSection>
           <BioSection>
             <BioYear>2018</BioYear>Accepted into James Madison High School.
@@ -79,7 +82,10 @@ const Page = () => {
             <BioYear>2019</BioYear>Transferred into Midwood High School.
           </BioSection>
           <BioSection>
-            <BioYear>2022</BioYear>TBD.
+            <BioYear>2022</BioYear>Graduated from Midwood High School
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>Attending Stony Brook University.
           </BioSection>
         </Section>
 
