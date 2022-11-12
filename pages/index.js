@@ -38,8 +38,8 @@ const Page = () => {
             </Heading>
             <Section delay={0.1}>
               <p>
-                Freshman year of college, attending{' '}
-                <b>SUNY Stony Brook University</b> (2022-2026)
+                Computer Engineering Major, attending{' '}
+                <b>SUNY Stony Brook University</b> (2022- Expected: 2026)
               </p>
             </Section>
           </Box>
