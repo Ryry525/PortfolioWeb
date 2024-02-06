@@ -93,7 +93,9 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             I ♥️
           </Heading>
-          <Paragraph>Videogames, Food, Cars, and Mechanical Keyboards</Paragraph>
+          <Paragraph>
+            Videogames, Food, Cars, and Mechanical Keyboards
+          </Paragraph>
         </Section>
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
@@ -101,7 +103,7 @@ const Page = () => {
           </Heading>
           <List>
             <ListItem>
-              <Link href="https://github.com/Ryry525" target="_blank">
+              <Link href="https://github.com/Ryry525" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="ghost"
                   colorScheme="red"
@@ -115,23 +117,8 @@ const Page = () => {
           <List>
             <ListItem>
               <Link
-                href="https://www.instagram.com/ryry._.0525/"
-                target="_blank"
-              >
-                <Button
-                  variant="ghost"
-                  colorScheme="red"
-                  leftIcon={<Icon as={IoLogoInstagram} />}
-                >
-                  @ryry._.0525
-                </Button>
-              </Link>
-            </ListItem>
-          </List>
-          <List>
-            <ListItem>
-              <Link
-                href="https://www.linkedin.com/in/ryan-lin-645367202/"
+                href="https://www.linkedin.com/in/ryan-lin-645367202/" 
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <Button

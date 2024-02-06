@@ -23,7 +23,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://ryry525.github.io/javascript-adventure-game/">
+          <Link href="https://ryry525.github.io/javascript-adventure-game/" target="_blank" rel="noopener noreferrer">
             https://ryry525.github.io/javascript-adventure-game/{' '}
             <ExternalLinkIcon mx="2px" />
           </Link>
